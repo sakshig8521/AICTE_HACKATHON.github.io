@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSCS-GOVT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Add your responsive CSS code here */
+      
+      @media (max-width: 512px) {
+          /* Modify the styles for mobile devices */
+          .header {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+          }
+          
+          .header div {
+              flex-basis: 100%;
+              margin-bottom: 10px;
+          }
+          
+          .navbar-nav .dropdown-menu {
+              position: static;
+              float: none;
+              width: auto;
+              padding: 0;
+          }
+          #img1,
+    #img2 {
+        max-width: 50%;
+        margin-left: -100px;
+       
+       
+    }
+    #sec #img2{
+      background-color: rgba(255, 0, 0, 0.127);
+      position: absolute;
+      width: 1500px;
+      z-index: 3;
+      height: 500px;
+      top: 5%;
+      padding-left: 700px;
+    }
+    #img2{
+
+    }
+      }
+  </style>
+</head>
+<body>
+    <div class="header" >
+       <div  id="first"><img id="img1" style="border-radius: 10px; width: 100px;" src="emb.png" alt=""></div>
+        <div id="text">
+           <span id="one"> MULTI-STATE CO-OPERATIVE SOCIETIES </span><br>
+            Ministry of Cooperation, Govt. of India
+        </div>
+        <div id="sec"><img id="img2" src="MSCS_LOGO.png" alt=""></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Chart
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./chrt1.html">State-wise</a></li>
+                  <li><a class="dropdown-item" href="./chrt2.html">Year-wise</a></li>
+                  <li><a class="dropdown-item" href="#">Type-wise</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Reg-Societies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./table1.html">State-wise list</a></li>
+                  <li><a class="dropdown-item" href="#">All Reg-Societies.pdf</a></li>
+                  <li><a class="dropdown-item" href="./table1.html">Societies Registered before 1986</a></li>
+                  <li><a class="dropdown-item" href="#">Calender Year-wise List</a></li>
+                  <li><a class="dropdown-item" href="#">Finantial Year-wise List</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Forms
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Form/Form1.pdf">Form I</a></li>
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Form2.aspx">Form II</a></li>
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Form3.aspx">Form III</a></li>
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Form4.aspx">Form IV</a></li>
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Form5.aspx">Form V</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MSCS Act
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Guidelines/GuidelineAct2002.pdf">MSCS Act 2002</a></li>
+                  <li><a class="dropdown-item" href="https://mscs.dac.gov.in/Form/Rules2002.pdf">MSCS Rules,2002</a></li>
+                  <li><a class="dropdown-item" href="#">Model Bye-Laws</a></li>
+                  <li><a class="dropdown-item" href="#">National Policy On Cooperative 2002</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Application
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Recieved Application</a></li>
+                  <li><a class="dropdown-item" href="#">Status of Application</a></li>
+                 
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Register-MSCS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./registration.html">New user Registration</a></li>
+                  <li><a class="dropdown-item" href="./user.html">User Login</a></li>
+                  <li><a class="dropdown-item" href="./admin.html">Admin user</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reports
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./table1.html">All Reg Societies</a></li>
+                  <li><a class="dropdown-item" href="./table1.html">Registered Users</a></li>
+                  <li><a class="dropdown-item" href="./table1.html">Filed Annual Returns Online</a></li>
+                  <li><a class="dropdown-item" href="#">Annual Returns : Offline</a></li>
+                  <li><a class="dropdown-item" href="#">Remainder Message</a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Liquidification
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./table1.html">Societies under Liquidifaction</a></li>
+                  <li><a class="dropdown-item" href="#">Liqudification Process Initiated</a></li>
+                  
+                </ul>
+                 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Banks</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>   
+      
+      <div class="container-fluid" >
+       <p id="p2"><marquee behavior="scroll" direction="right" class="aa" scrollamount="20">MULTI-STATE CO-OPERATIVE SOCIETIES                    Ministry of Cooperation,Govt. of India</marquee></p>
+       <p id="p1"> Multi State Cooperative Societies ACT, 2002</p>
+        <p id="p2"> An Act to consolidate and amend the law relating to co-operative societies, with objects not confined to one State and serving the interests of members in more than one State, to facilitate the voluntary formation and democratic functioning of co-operatives as people's institutions based on self-help and mutual aid and to enable them to promote their economic and social betterment and to provide functional autonomy ,was being felt necessary by the various cooperative societies, and federation of various cooperative societies as well as by the Government. In order to achieve the objective The Multi State Cooperative Societies Bill was introduced in the Parliament.The bill having been passed by both the Houses of Parliament received the assent of the President on 3rd July 2002 and it came on the Statute Book as The Multi State Cooperative Societies ACT 2002 (39 of 2002).</p> 
+      </div>
+           <div class="all">
+      <div class="card " style="width: 18rem; " id="c">
+        
+        <div class="card-body" id="c">
+          <h4 class="card-title">Latest Hearings</h4>
+        </div>
+        <ul class="list-group list-group-flush" id="c">
+          <li class="list-group-item" id="c">Shree Ninaidevi Multi Specialty Cooperative Hospital and Research Center Ltd.,MAHARASHTRA</li>
+          <li class="list-group-item" id="c">Global Federation of Natural Farming Cooperative Ltd.,UTTAR PRADESH</li>
+          <li class="list-group-item" id="c">Tamil Nadu Multi State Societies Cooperative Housing Federation Ltd.,TAMIL NADU</li>
+        </ul>
+        <div class="card-body" id="c">
+          
+          <a href="./table1.html" class="card-link">Read more</a>
+        </div>
+      </div>
+      <div class="card m rem" id="c" style="width: 18rem; margin-left: 150px;">
+        
+        <div class="card-body l" id="c" >
+          <h4 class="card-title" style="margin-bottom: -50px;">Latest Certificates</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="c">Mahesh Multi State Cooperative Credit Society Ltd.,MAHARASHTRAś</li>
+          <li class="list-group-item"id="c">Chambal Agriculture Marketing Cooperative Ltd,MADHYA PRADESH</li>
+          <li class="list-group-item" id="c">Heaven Multi State Agro Cooperative Society Ltd,UTTAR PRADESH</li>
+        </ul>
+        <div class="card-body" id="c">
+          
+          <a href="./table1.html" class="card-link">Read more</a>
+        </div>
+      </div>
+      <div class="card m" id="c" style="width: 18rem; margin-left: 150px;">
+        
+        <div class="card-body " id="c">
+          <h4 class="card-title" style="margin-bottom: 28px;">Latest Order Sheet</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="c">Home Multi State Cooperative Housing Society Ltd</li>
+          <li class="list-group-item" id="c">Lokmanya Multipurpose Cooperative Society Limited, Belgaum, Karnataka: Order Sheet of Hearing held on 14.02.2022</li>
+          <li class="list-group-item" id="c">Lotus Agricultural and Marketing Cooperative Society Ltd., Pitampura, New Delhi: Order Sheet of Hearing held on 04.02.2022</li>
+        </ul>
+        <div class="card-body" id="c" >
+          
+          <a href="./table1.html" class="card-link">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="con" style="background-color: rgb(82, 82, 82); width: 99%;">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white "><span id="z">Societies in the second Schedule </span></a></li>
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white"><span id="z">Complaint and hearing Notice </span></a></li>
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white"><span id="z">Amendment (by Laws)</span></a></li>
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white">Notices (New Registration)</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white">State Registars </a></li>
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white">hearing Order Sheet</a></li>
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white">Latest certificates </a></li>
+              <li class="nav-item mb-2"><a href="./table1.html" class="nav-link p-0 text-white">Regection Orders</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+           
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Circular</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Feedback</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">RTI</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Grievance</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+           
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#"  class="nav-link p-0 text-white" id="b">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Conatct Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Other Links</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News And Events</a></li>
+            </ul>
+          </div>
+    
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top" style="color: white;">
+            <p style="margin-left: 300px;  ">Designed and Developed by Agriculture Informatics Division, National Informatics Centre Disclaimer</p>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+        
+      </footer>
+    </div>
+</body>
+</html> 
